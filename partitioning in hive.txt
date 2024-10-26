@@ -1,0 +1,8 @@
+Partitioning in Hive
+
+1.Static Partitioning (Manual Partitioning) : - In static Partitioning, you will specify the partition column while loading the data.
+
+2.Dynamic Partitioning : - In dynamic partitioning , you will push the data into hive and then hive decides which value should go into which partition.
+
+To enable dynamic partitioning, you have to set 
+ set hive.exec.dynamic.partition=true; 
